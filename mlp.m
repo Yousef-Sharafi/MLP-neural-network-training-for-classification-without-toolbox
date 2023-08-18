@@ -10,12 +10,12 @@ n=size(data,1);
 m=size(data,2);
 
 n1=m-1;
-n2=7;
-n3=3;
+n2=30;
+n3=20;
 n4=1;
 
 eta=0.02;
-max_epoch=20;
+max_epoch=30;
 a=-1;
 b=+1;
 
