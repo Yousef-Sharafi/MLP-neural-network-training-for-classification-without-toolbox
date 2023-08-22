@@ -58,7 +58,6 @@ mse_train=zeros(max_epoch,1);
 mse_test=zeros(max_epoch,1);
 
 for i=1:max_epoch
-
     data_train=data_train(randperm(num_train),:);
     
     for j=1:num_train
